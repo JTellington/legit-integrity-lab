@@ -1,0 +1,11 @@
+[package]
+name = "legit-tam-lab"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# This is the hallucinated crate to demonstrate 'Slopsquatting'
+rust-crypto-util = "0.1.0" 
+
+# A real but very old/vulnerable library
+openssl = "0.1.0"
