@@ -1,5 +1,5 @@
 fn main() {
-    // Hardcoded DB Creds - Legit will flag this immediately
+    // Hardcoded DB Creds
     let db_pass = "admin:SuperSecretPassword123@prod-db-01.internal";
 
     println!("Connecting to factory...");
